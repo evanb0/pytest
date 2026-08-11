@@ -62,7 +62,7 @@ planets = [
         "color": "#888888",
         "type": "Terrestrial planet",
         "description": "Mercury is the closest planet to the Sun, and the smallest planet in our solar system. It's only slightly larger than Earth's Moon.",
-        "distance": "57.9 million km",
+        "distance": "57.9 million km or 0.387 AU",
         "moons": "0"
     },
 
@@ -75,7 +75,7 @@ planets = [
         "color": "#d4a15c",
         "type": "Terrestrial planet",
         "description": "Venus is the second planet from the Sun, and the sixth largest planet. It’s the hottest planet in our solar system.",
-        "distance": "108.2 million km",
+        "distance": "108.2 million km or 0.723 AU",
         "moons": "0"
     },
 
@@ -88,7 +88,7 @@ planets = [
         "color": "#3366ff",
         "type": "Terrestrial planet",
         "description": "Our home planet and the only world currently known to support life.",
-        "distance": "149.6 million km",
+        "distance": "149.6 million km or 1 AU",
         "moons": "1"
     },
 
@@ -101,7 +101,7 @@ planets = [
         "color": "#ff6633",
         "type": "Terrestrial planet",
         "description": "The Red Planet, known for its dusty surface and enormous volcanoes.",
-        "distance": "227.9 million km",
+        "distance": "227.9 million km or 1.523 AU",
         "moons": "2"
     },
 
@@ -114,7 +114,7 @@ planets = [
         "color": "#cc9933",
         "type": "Gas giant",
         "description": "Jupiter is the fifth planet from the Sun, and the largest in the solar system, by far — more than twice as massive as the other planets combined.",
-        "distance": "778.5 million km",
+        "distance": "778.5 million km or 5.204 AU",
         "moons": "95+"
     },
 
@@ -127,7 +127,7 @@ planets = [
         "color": "#d6b879",
         "type": "Gas giant",
         "description": "Saturn is the sixth planet from the Sun, and the second largest in the solar system. It’s surrounded by seven main rings although there are more.",
-        "distance": "1.43 billion km",
+        "distance": "1.43 billion km or 9.559 AU",
         "moons": "140+"
     },
 
@@ -140,7 +140,7 @@ planets = [
         "color": "#66ccdd",
         "type": "Ice giant",
         "description": "Uranus is the seventh planet from the Sun, and the third largest planet in our solar system. It appears to spin sideways.",
-        "distance": "2.87 billion km",
+        "distance": "2.87 billion km or 19.184 AU",
         "moons": "27"
     },
 
@@ -153,7 +153,7 @@ planets = [
         "color": "#3366cc",
         "type": "Ice giant",
         "description": "Neptune is the eighth, and most distant planet from the Sun. It’s the fourth-largest, and the first planet discovered with math.",
-        "distance": "4.50 billion km",
+        "distance": "4.50 billion km or 30.080 AU",
         "moons": "14"
     }
 ]
@@ -166,8 +166,8 @@ sun = {
     "size": 45,
     "color": "#ffaa00",
     "type": "Star",
-    "description": "The Sun's gravity holds the solar system together, keeping everything – from the biggest planets to the smallest particles of debris – in its orbit. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and auroras. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.",
-    "distance": "0 km",
+    "description": "The Sun's gravity holds the solar system together, keeping everything – from the biggest planets to the smallest particles of debris – in its orbit.",
+    "distance": "",
     "moons": "N/A"
 }
 
